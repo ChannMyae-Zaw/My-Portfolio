@@ -1,0 +1,20 @@
+{
+  "name": "geometric-portfolio",
+  "version": "1.0.0",
+  "description": "A geometric-styled portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000",
+    "dev": "npx live-server --port=3000 --watch=."
+  },
+  "dependencies": {
+    "emailjs-com": "^3.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["portfolio", "geometric", "responsive"],
+  "author": "Chann Myae Zaw",
+  "license": "MIT"
+}
+

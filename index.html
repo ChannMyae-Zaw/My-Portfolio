@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Geometric Design</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-geometric"></div>
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="home" class="hero">
+        <div class="geometric-bg">
+            <div class="triangle triangle-1"></div>
+            <div class="triangle triangle-2"></div>
+            <div class="triangle triangle-3"></div>
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="square square-1"></div>
+            <div class="square square-2"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-line highlight">Chann Myae Zaw</span>
+                    <span class="title-line">Backend & AI/ML Engineer</span>
+                </h1>
+                <p class="hero-description">
+                    I design high performance machine learning models and build AI-powered Softwares for innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-diamond"></div>
+                    <div class="decoration-line"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-top">
+                    <!-- Left: Image -->
+                    <!-- Right: Profile Card -->
+                    <div class="about-profile">
+                        <h4>Profile</h4>
+                        <div class="profile-card">
+                            <div class="profile-icon floating-icon">
+                                <div class="geometric-icon icon-profile"></div>
+                            </div>
+                            <div class="profile-content">
+                                <div class="profile-details">
+                                    <p><strong>Name:</strong> Chann Myae Zaw</p>
+                                    <p><strong>Nationality:</strong> Myanmar</p>
+                                    <p><strong>Languages:</strong> English, Burmese, Korean, Thai</p>
+                                    <p><strong>Email:</strong> your.email@example.com</p>
+                                    <p><strong>Location:</strong> Chiang Rai, Thailand</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="geometric-portrait">
+                            <div class="portrait-frame">
+                                <img src="me.jpg" alt="Your portrait" class="portrait-img" />
+                                <div class="portrait-overlay"></div>
+                            </div>
+                            <div class="portrait-decorations">
+                                <div class="decoration-triangle"></div>
+                                <div class="decoration-circle"></div>
+                                <div class="decoration-square"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+                <div class="about-text">
+                    <!--<div class="about-intro">
+                        <h3>AI/ML Engineering and backend systems</h3>
+                        <p>I perform insightful data preprocessing, build scalable ML pipelines and reliable APIs. My work blends data science, machine learning and software development.</p>
+                    </div>-->
+                    <div class="education">
+                        <h4>Education</h4>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <div class="geometric-icon icon-education"></div>
+                            </div>
+                            <div class="education-content">
+                                <h5>Bachelor of  Engineering in Software Engineering</h5>
+                                <p class="institution">Mae Fah Luang University</p>
+                                <p class="year">2022 - 2026</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills & Technologies</h4>
+
+                        
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-icon">
+                                        <div class="geometric-icon icon-2"></div>
+                                    </div>
+                                    <span class="skill-title">Data Science And Machine Learning</span>
+                                </div>
+                                <div class="skill-technologies">
+                                    <span class="tech-tag">Pandas</span>
+                                    <span class="tech-tag">Matplotlib</span>
+                                    <span class="tech-tag">Seaborn</span>
+                                    <span class="tech-tag">Scikit-learn</span>
+                                    <span class="tech-tag">PyTorch</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-icon">
+                                        <div class="geometric-icon icon-2"></div>
+                                    </div>
+                                    <span class="skill-title">MLOps and Tools</span>
+                                </div>
+                                <div class="skill-technologies">                                    
+                                    <span class="tech-tag">Git</span>
+                                    <span class="tech-tag">VS Code</span>
+                                    <span class="tech-tag">Jupyter Notebook</span>
+                                    <span class="tech-tag">MLflow</span>
+                                    <span class="tech-tag">Great Expectations</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-icon">
+                                        <div class="geometric-icon icon-1"></div>
+                                    </div>
+                                    <span class="skill-title">Backend Development</span>
+                                </div>
+                                <div class="skill-technologies">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">FastAPI</span>
+                                    <span class="tech-tag">Flask</span>
+                                    <span class="tech-tag">Firebase</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-icon">
+                                        <div class="geometric-icon icon-4"></div>
+                                    </div>
+                                    <span class="skill-title">Core Knowledge</span>
+                                </div>
+                                <div class="skill-content">  
+                                    <div class="skill-technologies">
+                                        <span class="tech-tag">Mathematics</span>
+                                        <span class="tech-tag">Linear Algebra</span>
+                                        <span class="tech-tag">Statistics</span>
+                                        <span class="tech-tag">Research</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Page -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-diamond"></div>
+                    <div class="decoration-line"></div>
+                </div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-image">
+                            <div class="image-placeholder">Project 1</div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://marketplace.visualstudio.com/items?itemName=FoodokuAthena.code-documentation#:~:text=A%20VS%20Code%20extension%20that%20helps%20you%20automatically,%F0%9F%93%84%20Attach%20your%20coding%20standard%20%28PDF%29%2C%20or%20not%21" class="project-link">View Project</a>
+                                    <a href="https://github.com/ChannMyae-Zaw/Code-Documetation-VS-Code-Plug-in" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-geometric">
+                            <div class="card-shape shape-triangle"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>LLM-Powered Code Documentation Tool</h3>
+                        <p>This is a tool that assists with code documentation and help maintain code standard, consistency and readability. The tool is developed both as a standalone website and as a VS Code Plugin.  </p>
+                        <div class="project-tags">
+                            <span class="tag">Svelte</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Angular</span>
+                            <span class="tag">VS Code API</span>
+                            <span class="tag">OpenAI</span>
+                            <span class="tag">Gemini</span>
+                            <span class="tag">DeepSeek</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-image">
+                            <div class="image-placeholder">Project 2</div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://indian-flight-price-prediction-r66m.onrender.com" class="project-link">View Project</a>
+                                    <a href="https://github.com/ChannMyae-Zaw/airplane-price-prediction" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-geometric">
+                            <div class="card-shape shape-circle"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Flight Price Prediction Pipeline</h3>
+                        <p>A pipeline model that handles both data processing and prediction of the price of indian airlines. </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Scikit Learn</span>
+                            <span class="tag">LightGBM</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">MLflow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-image">
+                            <div class="image-placeholder">Project 3</div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://huggingface.co/spaces/Chenjelly/Korean-Series-Recommender" class="project-link">View Project</a>
+                                    <a href="https://github.com/ChannMyae-Zaw/Korean-Series-Recommender" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-geometric">
+                            <div class="card-shape shape-diamond"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Korean Series Recommender</h3>
+                        <p>This model recommends you korean series according to the user's input. The recommended series can also be filtered by attributes such as release year and genre. The model is deployed on Huggingface Space</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">Sentence Transformers</span>
+                            <span class="tag">Huggingface Space</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-image">
+                            <div class="image-placeholder">Project 5</div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://channmyae-zaw-resume-infomation-extractor-app-pkspia.streamlit.app" class="project-link">View Project</a>
+                                    <a href="https://github.com/ChannMyae-Zaw/Resume-Infomation-Extractor" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-geometric">
+                            <div class="card-shape shape-star"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Resume Information Extractor</h3>
+                        <p> This tool extracts information from multiple pdf resumes and present the user with table and downloadable csv files. </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">LangChain</span>
+                            <span class="tag">Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-image">
+                            <div class="image-placeholder">Project 4</div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://play.google.com/store/apps/details?id=com.mfu.matcha_notes&pcampaignid=web_share" class="project-link">View Project</a>
+                                    <a href="https://github.com/ChannMyae-Zaw/matcha_notes" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-geometric">
+                            <div class="card-shape shape-hexagon"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Matcha Notes</h3>
+                        <p>A simple flutter note app that allows users to create, save, edit and delete notes including special functions, marking favorites, locking notes, daily memos and spilling tea.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-image">
+                            <div class="image-placeholder">Project 6</div>
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <a href="https://portfolio-1aba7.web.app" class="project-link">View Project</a>
+                                    <a href="https://github.com/ChannMyae-Zaw/Portfolio" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-geometric">
+                            <div class="card-shape shape-pentagon"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio (Old)</h3>
+                        <p> The Porfolio Website was developed to present myself and my experience  and includes admin side to publish blogs. It was developed using Angular and tailwind for responsive view. </p>
+                        <div class="project-tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-diamond"></div>
+                    <div class="decoration-line"></div>
+                </div>
+            </div>
+            <div class="certifications-container">
+                <div class="certifications-scroll">
+                    <a href="https://www.datacamp.com/statement-of-accomplishment/track/3d0bd514390d209407b504e36922a36701b7b932?raw=1" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="certification-card-link">
+                        <div class="certification-card">
+                            <div class="cert-icon">
+                                <div class="cert-geometric cert-1"></div>
+                            </div>
+                            <h4>Machine Learning Scientist Track</h4>
+                            <p>DataCamp</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </a>
+                    <a href="https://www.datacamp.com/statement-of-accomplishment/track/ddbaf30aadb9db7fe9138f45d747fb6f5d27e56c?raw=1" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="certification-card-link">
+                        <div class="certification-card">
+                            <div class="cert-icon">
+                                <div class="cert-geometric cert-2"></div>
+                            </div>
+                            <h4>Supervised Machine Learning In Python</h4>
+                            <p>DataCamp</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </a>
+                    <!--<a href="https://www.datacamp.com/statement-of-accomplishment/track/3d0bd514390d209407b504e36922a36701b7b932?raw=1" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="certification-card-link">
+                        <div class="certification-card">
+                            <div class="cert-icon">
+                                <div class="cert-geometric cert-1"></div>
+                            </div>
+                            <h4>Machine Learning Scientist Track</h4>
+                            <p>DataCamp</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </a>
+                    <a href="https://www.datacamp.com/statement-of-accomplishment/track/3d0bd514390d209407b504e36922a36701b7b932?raw=1" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="certification-card-link">
+                        <div class="certification-card">
+                            <div class="cert-icon">
+                                <div class="cert-geometric cert-1"></div>
+                            </div>
+                            <h4>Machine Learning Scientist Track</h4>
+                            <p>DataCamp</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </a>
+                    <a href="https://www.datacamp.com/statement-of-accomplishment/track/3d0bd514390d209407b504e36922a36701b7b932?raw=1" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="certification-card-link">
+                        <div class="certification-card">
+                            <div class="cert-icon">
+                                <div class="cert-geometric cert-1"></div>
+                            </div>
+                            <h4>Machine Learning Scientist Track</h4>
+                            <p>DataCamp</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </a>
+                    <a href="https://www.datacamp.com/statement-of-accomplishment/track/3d0bd514390d209407b504e36922a36701b7b932?raw=1" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="certification-card-link">
+                        <div class="certification-card">
+                            <div class="cert-icon">
+                                <div class="cert-geometric cert-1"></div>
+                            </div>
+                            <h4>Machine Learning Scientist Track</h4>
+                            <p>DataCamp</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-diamond"></div>
+                    <div class="decoration-line"></div>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Create Something Amazing</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <div class="icon-geometric icon-email"></div>
+                            </div>
+                            <span>channmyaezaw0@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <div class="icon-geometric icon-location"></div>
+                            </div>
+                            <span>Chiang Rai, Thailand</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="input-decoration"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="input-decoration"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <div class="input-decoration"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <div class="input-decoration"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <div class="btn-geometric"></div>
+                        </button>
+                    </form>
+                    <div id="form-status" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-geometric">
+                    <div class="footer-shape shape-1"></div>
+                    <div class="footer-shape shape-2"></div>
+                    <div class="footer-shape shape-3"></div>
+                </div>
+                <p>&copy; 2024 Chann Myae Zaw. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
