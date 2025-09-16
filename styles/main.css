@@ -1131,6 +1131,10 @@ body {
     gap: 1rem;
 }
 
+.contact-item a{
+    color: white;
+}
+
 .contact-icon {
     width: 40px;
     height: 40px;
@@ -1140,13 +1144,35 @@ body {
 }
 
 .icon-email {
-    background: var(--primary-color);
+    background: var(--bg-primary);
     border-radius: 6px;
+    width: 30px;  /* adjust to your PNG size */
+    height: 30px;
+    object-fit: contain;
+}
+
+.icon-linkedin {
+    background: var(--bg-primary);
+    border-radius: 6px;
+    width: 30px;  /* adjust to your PNG size */
+    height: 30px;
+    object-fit: contain;
+}
+
+.icon-github {
+    background: var(--bg-primary);
+    border-radius: 6px;
+    width: 30px;  /* adjust to your PNG size */
+    height: 30px;
+    object-fit: contain;
 }
 
 .icon-location {
-    background: var(--accent-color);
+    background: var(--bg-primary);
     border-radius: 50%;
+    width: 35px;  /* adjust to your PNG size */
+    height: 35px;
+    object-fit: contain;
 }
 
 .contact-form-container {
